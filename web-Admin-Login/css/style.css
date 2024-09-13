@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    background-color: rgb(223, 235, 247);
+    height: auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.txtb {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 20px 0;
+}
+
+.txtb input {
+    font-size: 15px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+img.Admin-image {
+    max-width: 100px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    border-radius: 25%;
+}
+
+.logbtn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #3498db;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+
+.logbtn:hover {
+    background-image: linear-gradient(120deg, #8e44ad, #3498db);
+}
+     
